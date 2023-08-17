@@ -129,5 +129,5 @@ jobs:
       env:
         AUTHOR: "Mr Developer"
       run: |
-        mvn clean deploy --file pom.xml -DmuleDeploy -Dusername="${{ secrets.ANYPOINT_USERNAME }}" -Dpassword="${{ secrets.ANYPOINT_PASSWORD }}" -Drtf.app.name="auto-app03-pedro03" -Dapp.inbound.url="http://auto-app03-pedro03.mulesoft-training.com/*" -Ddeployment.target="rtf-pedro-03"     
+        mvn clean deploy --file pom.xml -DmuleDeploy -Dusername="${{ secrets.ANYPOINT_USERNAME }}" -Dpassword="${{ secrets.ANYPOINT_PASSWORD }}" -Drtf.app.name="auto-app03-pedro03" -Dapp.inbound.url="http://auto-app03-pedro03.mulesoft-training.com/" -Ddeployment.target="rtf-pedro-03"     
 
